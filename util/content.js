@@ -6,7 +6,7 @@ const file = require('./file')
 /**
  * 获取静态资源
  * @param {object} ctx koa上下文
- * @param {string} 静态资源目录在本地的绝对路径
+ * @param {string} fullStaticPath 静态资源目录在本地的绝对路径
  * @return {string} 请求获取的本地内容
  */
 async function content(ctx, fullStaticPath) {
